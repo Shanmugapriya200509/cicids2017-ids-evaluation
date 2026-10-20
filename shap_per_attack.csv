@@ -1,0 +1,71 @@
+attack,n_rows,rank,feature,mean_abs_shap
+Bot,200,1,Destination Port,4.8212
+Bot,200,2,Bwd IAT Std,0.5821
+Bot,200,3,Fwd Header Length,0.578
+Bot,200,4,Init_Win_bytes_forward,0.4961
+Bot,200,5,Init_Win_bytes_backward,0.2874
+DDoS,200,1,min_seg_size_forward,4.4769
+DDoS,200,2,Fwd Packet Length Max,0.9217
+DDoS,200,3,Total Length of Fwd Packets,0.4991
+DDoS,200,4,Init_Win_bytes_backward,0.3455
+DDoS,200,5,Destination Port,0.1638
+DoS GoldenEye,200,1,Bwd IAT Std,1.0986
+DoS GoldenEye,200,2,Total Length of Bwd Packets,0.8118
+DoS GoldenEye,200,3,Flow Bytes/s,0.6319
+DoS GoldenEye,200,4,Flow IAT Std,0.5732
+DoS GoldenEye,200,5,Flow IAT Min,0.4984
+DoS Hulk,200,1,Fwd IAT Std,2.6362
+DoS Hulk,200,2,FIN Flag Count,0.7406
+DoS Hulk,200,3,Init_Win_bytes_forward,0.5059
+DoS Hulk,200,4,Fwd Header Length,0.456
+DoS Hulk,200,5,Total Length of Bwd Packets,0.405
+DoS Slowhttptest,200,1,Flow IAT Mean,2.9786
+DoS Slowhttptest,200,2,Fwd IAT Min,0.5212
+DoS Slowhttptest,200,3,Fwd Packet Length Mean,0.4288
+DoS Slowhttptest,200,4,Active Min,0.357
+DoS Slowhttptest,200,5,Max Packet Length,0.3562
+DoS slowloris,200,1,Bwd Packet Length Mean,1.5656
+DoS slowloris,200,2,Bwd IAT Min,0.8383
+DoS slowloris,200,3,Fwd IAT Min,0.6672
+DoS slowloris,200,4,Fwd Packet Length Mean,0.6006
+DoS slowloris,200,5,Bwd IAT Mean,0.4313
+FTP-Patator,200,1,Destination Port,6.8325
+FTP-Patator,200,2,Total Length of Fwd Packets,0.1699
+FTP-Patator,200,3,Flow IAT Min,0.1344
+FTP-Patator,200,4,Fwd IAT Min,0.0603
+FTP-Patator,200,5,Init_Win_bytes_backward,0.0195
+Heartbleed,2,1,Bwd Packet Length Max,2.8525
+Heartbleed,2,2,Total Backward Packets,0.8749
+Heartbleed,2,3,Total Fwd Packets,0.8653
+Heartbleed,2,4,Packet Length Mean,0.8143
+Heartbleed,2,5,Bwd Packet Length Mean,0.8095
+Infiltration,7,1,Destination Port,2.6253
+Infiltration,7,2,Min Packet Length,0.6625
+Infiltration,7,3,Fwd Packet Length Max,0.6363
+Infiltration,7,4,act_data_pkt_fwd,0.5365
+Infiltration,7,5,Total Fwd Packets,0.3599
+PortScan,200,1,Flow Duration,2.5323
+PortScan,200,2,PSH Flag Count,0.816
+PortScan,200,3,Flow IAT Max,0.7745
+PortScan,200,4,Fwd Packets/s,0.3862
+PortScan,200,5,Bwd Packets/s,0.3604
+SSH-Patator,200,1,Destination Port,5.1075
+SSH-Patator,200,2,Bwd Header Length,1.7743
+SSH-Patator,200,3,Init_Win_bytes_backward,0.3979
+SSH-Patator,200,4,Fwd Packet Length Max,0.1995
+SSH-Patator,200,5,Total Length of Bwd Packets,0.0625
+Web Attack_Brute Force,200,1,Init_Win_bytes_backward,3.071
+Web Attack_Brute Force,200,2,Fwd IAT Min,0.3285
+Web Attack_Brute Force,200,3,URG Flag Count,0.2299
+Web Attack_Brute Force,200,4,Fwd Packet Length Std,0.1904
+Web Attack_Brute Force,200,5,Flow IAT Min,0.1175
+Web Attack_Sql Injection,4,1,Init_Win_bytes_backward,1.7664
+Web Attack_Sql Injection,4,2,URG Flag Count,1.3487
+Web Attack_Sql Injection,4,3,Flow Duration,1.1604
+Web Attack_Sql Injection,4,4,Flow Bytes/s,0.8431
+Web Attack_Sql Injection,4,5,Fwd Packet Length Std,0.7061
+Web Attack_XSS,130,1,Init_Win_bytes_backward,3.1403
+Web Attack_XSS,130,2,Fwd IAT Min,0.3279
+Web Attack_XSS,130,3,Fwd IAT Total,0.1758
+Web Attack_XSS,130,4,Max Packet Length,0.1446
+Web Attack_XSS,130,5,Flow IAT Min,0.1329
