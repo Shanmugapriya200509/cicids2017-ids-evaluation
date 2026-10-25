@@ -1,0 +1,9 @@
+stage,rows
+1. Raw merged file,2830744
+2. After removing blank/unlabelled rows,2830743
+3. After removing exact duplicates,2499784
+4. After removing conflicting-label rows,2498346
+5. After removing inf/NaN rows,2496807
+"6. After capping each class at 10,000",73899
+7a. Training set,59119
+7b. Test set,14780
