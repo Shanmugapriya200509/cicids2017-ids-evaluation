@@ -1,0 +1,16 @@
+Label,Count,Percentage
+BENIGN,10000,13.532
+DDoS,10000,13.532
+PortScan,10000,13.532
+DoS Hulk,10000,13.532
+DoS GoldenEye,10000,13.532
+FTP-Patator,5931,8.0258
+DoS slowloris,5383,7.2843
+DoS Slowhttptest,5228,7.0745
+SSH-Patator,3219,4.3559
+Bot,1948,2.636
+Web Attack_Brute Force,1470,1.9892
+Web Attack_XSS,652,0.8823
+Infiltration,36,0.0487
+Web Attack_Sql Injection,21,0.0284
+Heartbleed,11,0.0149
